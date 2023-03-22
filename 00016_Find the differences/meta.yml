@@ -11,7 +11,7 @@ manual_evaluation: false
 progressive_expectations: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Both functions start with 'def`, followed by the name of the function
+  value: Both functions start with `def`, followed by the name of the function
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Both functions start with `def`, followed by a colon
