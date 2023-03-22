@@ -11,16 +11,16 @@ manual_evaluation: false
 progressive_expectations: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`suma_longitudes` es una función"
+  value: "`sum_lengths` is a function"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`suma_longitudes` tiene dos parámetros"
+  value: "`sum_lengths` has two parameters"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`suma_longitudes` puede ser invocada con 2 argumentos"
+  value: "`sum_lengths` can be called with 2 arguments"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: si escribimos `suma_longitudes("aprendiendo", "programación")`, `"aprendiendo"`
-    será el primer argumento y `"programación"`, el segundo
+  value: if we write `sum_lengths("learning", "programming")`, `"learning"` will be
+    the first argument and `"programming"`, the second
   checked: true
-name: Funciones con agujeritos
+name: Functions with holes
