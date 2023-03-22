@@ -3,9 +3,9 @@ rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     error_contains: IndentationError
-  then: no olvides de tabular mediante la tecla  `Tab ↹` la última línea
+  then: don't forget to indent your second line with the `Tab ↹`  key
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     error_contains: "^"
-  then: 'mirá el símbolo `^` :bulb: , ¿a dónde está apuntando? ¿Qué nos estará queriendo
-    decir Python?'
+  then: 'look at the `^` :bulb: symbol, where is it pointing to? What is Python trying
+    to tell us?'
