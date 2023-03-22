@@ -11,21 +11,21 @@ manual_evaluation: false
 progressive_expectations: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas empiezan con `def` seguido del nombre de la función
+  value: Both functions start with 'def`, followed by the name of the function
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas empiezan con `def` seguido de dos puntos
+  value: Both functions start with `def`, followed by a colon
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas tienen un `return` en la primera línea
+  value: Both functions have a `return` in the first line
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas tienen un `return` en la última línea
+  value: Both functions have a `return` in the last line
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas terminan la primera línea con dos puntos
+  value: Both functions end with a colon in the first line
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Ambas arrancan la segunda línea contra el margen
+  value: The second line of both functions is aligned next to the margin
   checked: false
 name: Find the differences
