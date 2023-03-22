@@ -6,4 +6,4 @@ rules:
     statement: \n\n```python\ndef is_longer_than(a_string, another_string):\n  return
     len(a_string) > len(another_string)\n```\n\nNote that next to the code there is a
     button <i class=\"far fa-fw fa-copy\"></i> that will allow you to copy it automatically.
-    Then you can paste it using it `Ctrl`  + `V` or `⌘` +` V`.\n"
+    Then you can paste it using `Ctrl`  + `V` or `⌘` +` V`.\n"
