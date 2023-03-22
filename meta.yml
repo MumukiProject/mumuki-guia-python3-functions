@@ -1,6 +1,6 @@
 ---
 name: Funciones y parámetros
-locale: es
+locale: en
 type: learning
 beta: false
 teacher_info: ''
@@ -21,4 +21,4 @@ order:
 - 12
 - 13
 - 11
-private: false
+private: true
