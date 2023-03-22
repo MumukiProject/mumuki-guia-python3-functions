@@ -5,9 +5,9 @@
   def test_sunday_is_weekend(self):
     self.assertTrue(is_weekend("Sunday") or is_weekend("sunday"))
 
-  def test_monday_no_is_weekend(self):
+  def test_monday_is_not_weekend(self):
     self.assertFalse(is_weekend("Monday"))
 
-  def test_friday_no_is_weekend(self):
+  def test_friday_is_not_weekend(self):
     self.assertFalse(is_weekend("Friday"))
 
