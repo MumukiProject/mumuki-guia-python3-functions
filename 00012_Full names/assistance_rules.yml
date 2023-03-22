@@ -4,11 +4,11 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - "* Not:Uses:startswith"
-  then: ":warning: en este ejercicio no necesitás `str.startswith`. Te la contamos
-    sólo como ejemplo :wink:"
+  then: ":warning: in this exercise you don't need `str.startswith`. We tell you only
+    as an example :wink:"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
-    - No falta contemplar el espacio
-  then: Parece que no estás contemplando el espacio; la `longitud_nombre_completo`
-    debe devolver `1` más que las longitudes sumadas de `nombre` y `apellido`
+    - Contemplate the space
+  then: It seems that you are not contemplating space; the `full_name_length` must
+    return `1` more than the summed lengths of `first_name` and `lastname`
