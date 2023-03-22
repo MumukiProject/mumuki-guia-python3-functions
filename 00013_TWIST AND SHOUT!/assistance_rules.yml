@@ -4,4 +4,4 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - "* Uses:upper"
-  then: No te olvides de convertir el nombre en mayúsculas, usando `str.upper`
+  then: Don't forget to convert the name to uppercase by using `str.upper`
