@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:le_gusta_leer
+  inspection: Declares:loves_reading

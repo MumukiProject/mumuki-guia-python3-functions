@@ -1,2 +1,2 @@
-def es_dia_favorito(dia_del_mes):
-  return dia_del_mes == 1 
+def is_favorite_day(day_of_month):
+  return day_of_month == 1 

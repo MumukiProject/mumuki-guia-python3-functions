@@ -1,8 +1,9 @@
-¡Muy bien! :clap:
+Very good! :clap:
 
-Aunque sonemos un poco insistentes :rolling_eyes:, no te olvides de poner buenos nombres a tus parámetros. Por ejemplo, `libros` o `cantidad_de_libros` son mejores que `cantidad` o `numero`: 
+Even if we sound a bit pushy :rolling_eyes:, don't forget to give your parameters good names. For example, `books`, `number_of_books` or `amount_of_books` are better than just `n` or `number`:
 
 ```python
-def le_gusta_leer(cantidad_de_libros):
-  return cantidad_de_libros > 20
+def loves_reading(number_of_books):
+  return number_of_books > 20
 ```
+
