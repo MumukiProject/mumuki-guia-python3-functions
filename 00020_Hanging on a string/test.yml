@@ -1,0 +1,3 @@
+---
+equal: No, because in the `is_library` function, `place` is a parameter of type string,
+  but the parameters are names that are not enclosed in quotes

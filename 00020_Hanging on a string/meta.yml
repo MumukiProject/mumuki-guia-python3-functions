@@ -11,11 +11,11 @@ manual_evaluation: false
 progressive_expectations: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Si, porque en la función `es_biblioteca`, `lugar` es un parámetro de tipo
-    string y debemos indicarlo colocándolo entre comillas
+  value: Yes, because in the function `is_library`, `place` is a string type parameter
+    and we must indicate it by placing it in quotes
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: No, porque en la función `es_biblioteca`, `lugar` es un parámetro de tipo
-    string, pero los parámetros son nombres que no van entre comillas
+  value: No, because in the `is_library` function, `place` is a parameter of type
+    string, but the parameters are names that are not enclosed in quotes
   checked: true
-name: Un string no es parámetro
+name: Hanging on a string
