@@ -1,0 +1,1 @@
+To know if a day is a weekend, _that day has to be `"Saturday"` or that day has to be `"Sunday"`_. Remember that the "logical or" operates on booleans, not strings. :eyes:
