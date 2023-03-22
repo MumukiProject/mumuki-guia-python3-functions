@@ -1,3 +1,3 @@
-¡Felicitaciones! :tada:
+Congratulations! :tada:
 
-En esta lección aprendiste a definir funciones que, a partir de su reutilización, nos ayudan a evitar la repetición de lógica. También viste la diferencia entre parámetros y argumentos, elementos esenciales para poder hacer lo mismo con distintos valores. :raised_hands:
+In this lesson, you learned how to define reusable functions that allow us to avoid logical repetition. You also understood the difference between parameters and arguments, which are essential to do the same thing but with different values. :raised_hands:
