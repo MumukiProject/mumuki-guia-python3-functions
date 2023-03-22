@@ -28,4 +28,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Ambas arrancan la segunda línea contra el margen
   checked: false
-name: El juego de los parecidos
+name: Find the differences
