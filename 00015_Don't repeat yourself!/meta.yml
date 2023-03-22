@@ -11,5 +11,5 @@ progressive_expectations: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
-  value: es_mas_largo_que("Santiago del Estero", "Misiones")
-name: "¡No te repitas!"
+  value: is_longer_than("Peach", "Cannelloni")
+name: Don't repeat yourself!

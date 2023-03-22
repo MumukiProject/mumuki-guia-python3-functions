@@ -1,0 +1,3 @@
+Profit! The code has no errors and is much easier to understand. But hadn't we said that nothing in Python solves the problem of knowing whether one string is longer than another? What happened then? Did we lie? Did a wizard do it? 🪄
+
+Let's reveal the mystery...
