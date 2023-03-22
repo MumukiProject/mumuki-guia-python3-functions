@@ -1,2 +1,2 @@
-expectation "`is_weekend` must use `or` with two boolean expresions":
+expectation "`is_weekend` must use `or` with two boolean expressions":
   within `is_weekend` calls or with (nonliteral, nonliteral);
