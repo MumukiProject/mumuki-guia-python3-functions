@@ -3,3 +3,12 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Declares:loves_reading
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:loves_reading
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: loves_reading
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: loves_reading
+  inspection: UsesEqual
