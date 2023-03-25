@@ -29,4 +29,4 @@ True # if the arguments change, the result can be different too
 >
 > 1. 📋 Copy the _definition_ of the function `is_longer_than` into the editor below;
 > 2. 📢 Call the function `is_longer_than` in the `Console` several times with different arguments;
-> 3. ▶ Then go back to the `Solution` tab and press the 'Submit' button.
+> 3. ▶ Then go back to the `Solution` tab and press the `Submit` button.
