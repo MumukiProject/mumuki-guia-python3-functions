@@ -3,7 +3,7 @@ Exactly! All options are correct. :ok_hand:
 A function can _declare_ as many parameters in its definition as it needs; for each of them, we must pass an argument when calling the function. The interesting thing is that inside the function definition, it doesn't matter which arguments we used; we will know them by the name of its parameter. In this example, when we type into the console...
 
 ```python
-ムsum_length("learning", "programming")
+ムsum_lengths("learning", "programming")
 ```
 ...within the `sum_lengths` function the argument `"learning"` will be `a_string` and `"programming"` will be `another_string`:
 
