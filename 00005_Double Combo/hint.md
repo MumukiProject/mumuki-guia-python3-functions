@@ -1,1 +1,1 @@
-You don't need to define all these functions at once. You can start by defining `previous` and submitting it as many times as you need. When you are done with it, you can move to the next functions. 
+You don't need to define all these functions at once. You can start by defining `previous` and submitting it as many times as you need. When you are done with it, you can move to the next functions. In other words, we can solve this problem using an [_iterative and incremental_](https://en.wikipedia.org/wiki/Iterative_and_incremental_development) approach.
