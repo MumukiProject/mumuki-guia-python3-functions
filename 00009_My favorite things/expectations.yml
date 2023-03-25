@@ -9,6 +9,3 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: loves_reading
   inspection: Returns
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: loves_reading
-  inspection: UsesGreaterThan
