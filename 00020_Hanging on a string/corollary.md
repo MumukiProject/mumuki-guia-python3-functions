@@ -5,11 +5,11 @@ def is_library(place)
   return "library" in place
 ```
 
-On the other hand, the original definition…
+On the other hand, the original definition...
 
 ```python
 def is_library("place"):
    return "library" in "place"
 ```
 
-…will throw a `SyntaxError`!
+...will throw a `SyntaxError`!
