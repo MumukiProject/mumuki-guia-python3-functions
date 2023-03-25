@@ -3,7 +3,7 @@ Very good! 🤬 You may have noticed that Python prints messages like this when 
 ```
   File "solution.py", ...
 	def half(a_number)
-                   	^
+                    	^
 SyntaxError: invalid syntax
 ```
 
