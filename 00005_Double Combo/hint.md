@@ -1,0 +1,1 @@
+You don't need to define all these functions at once. You can start by defining `previous` and submitting it as many times as you need. When you are done with it, you can move to the next functions. 
