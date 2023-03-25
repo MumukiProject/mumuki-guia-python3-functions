@@ -1,0 +1,2 @@
+expectation "`full_name_length` does not need to call `len(' ')`, because that expression can be replaced by just `1` ":
+  through `full_name_length` not calls size with " ";
