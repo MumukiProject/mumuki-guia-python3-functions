@@ -15,5 +15,5 @@ But don't despair :scream:: if something doesn't work out, remember that you can
 > False
 > ```
 >
-> Then test it in the console. When finished, press submit.
+> Then test it in the console. When you have finished, press submit.
 >
