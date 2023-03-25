@@ -4,3 +4,12 @@ Good! The parameters are simply identifiers, which are written without quotes an
 def is_library(place)
   return "library" in place
 ```
+
+On the other hand, the original definition…
+
+```python
+def is_library("place"):
+   return "library" in "place"
+```
+
+…will throw a `SyntaxError`!
