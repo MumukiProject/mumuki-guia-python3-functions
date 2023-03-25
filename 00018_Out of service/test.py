@@ -12,9 +12,9 @@
     
 
   def test_sum_lenghts_of_hello_and_world_is_10(self):
-    self.assertEqual(suma_longitudes("hello", "world"), 10)
+    self.assertEqual(sum_lengths("hello", "world"), 10)
 
 
   def test_sum_lenghts_of_mmm_and_donuts_is_9(self):
-    self.assertEqual(suma_longitudes("mmm", "donuts"), 9)
+    self.assertEqual(sum_lengths("mmm", "donuts"), 9)
 
