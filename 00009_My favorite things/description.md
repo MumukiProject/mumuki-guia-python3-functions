@@ -1,11 +1,11 @@
-Let's define more functions! :writing_hand: Dani loves the first day of every month :date:, and that's why she defined this function...
+Let's define more functions! :writing_hand: Dani - who loves the first day of every month :date: - defined this function...
 
 ```python
 def is_favorite_day(day_of_month):
   return day_of_month == 1
 ```
 
-...and uses it like this (_and has left it in the library for you):
+...and uses it like this (_and has left it in the library for you_):
 
 ```python
 ムis_favorite_day(13)
