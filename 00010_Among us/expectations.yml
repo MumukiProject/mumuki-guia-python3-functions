@@ -5,4 +5,16 @@ expectations:
   inspection: Declares:is_between
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
+  inspection: DeclaresComputationWithArity3:is_between
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_between
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Declares:is_out_of_range
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity3:is_out_of_range
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_out_of_range
+  inspection: Returns
