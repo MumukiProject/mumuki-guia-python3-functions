@@ -13,7 +13,7 @@ def is_longer_than(a_string, another_string):
 ムis_longer_than("Valle de Uco", "Cerro de los Siete Colores")
 False
 ムis_longer_than("Valle de Uco", "Cerro de los Siete Colores")
-False # both times return the same thing
+False # both times it returns the same thing
 ```
 
 But wait, there is more! Every time we call it, we can do it with different _arguments_ :open_mouth::
