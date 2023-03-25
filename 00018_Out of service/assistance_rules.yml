@@ -7,5 +7,5 @@ rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     error_contains: "^"
-  then: 'look at the `^` :bulb: symbol, where is it pointing to? What is Python trying
-    to tell us?'
+  then: 'press `View details` and look at the `^` :bulb: symbol, where is it pointing
+    to? What is Python trying to tell us?'
