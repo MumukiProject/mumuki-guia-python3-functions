@@ -1,7 +1,7 @@
 Let's do a quick review of booleans before we continue!
 
-* You can do the logical conjunction between two booleans (_and logical_), using the operator `and`. For example: `it_is_raining and it_is_hot`
-* You can do the logical disjunction between two booleans (_or logical_), by means of the operator `or` making `is_summer or is_spring`
+* You can do the logical conjunction between two booleans (_logical and_), using the operator `and`. For example: `it_is_raining and it_is_hot`
+* You can do the logical disjunction between two booleans (_logical or_), by means of the operator `or` making `is_summer or is_spring`
 
 And in addition to these two operators, we have a third: the negation operator `not`, which converts `True` to `False` and vice versa:
 
