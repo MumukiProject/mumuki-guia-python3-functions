@@ -14,7 +14,7 @@ False
 True
 ```
 
-> Now it's your turn! Dani also says that someone `loves_reading`, when the number of books they remember reading is greater than 20. For example:
+> Now it's your turn! Dani also says that someone `loves_reading`, when the number of books they read is greater than 20. For example:
 >
 > ```python
 > ムloves_reading(15)
