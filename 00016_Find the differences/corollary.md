@@ -7,6 +7,6 @@ Congrats! Those similarities aren't accidental: to define functions, you must fo
   4. and finally, it must end with a colon (`:`)
 2. The following lines (also called _body_) must:
   1. be indented, that is, not directly against the margin, but by pressing the `Tab ↹` key;
-  2. the last line in particular must also start with `return`, followed by the expression out function will return.
+  2. the last line in particular must also start with `return`, followed by the expression our function will return.
 
 Wow, so many rules :tired_face:! But don't worry, little by little we'll master them :smile:
