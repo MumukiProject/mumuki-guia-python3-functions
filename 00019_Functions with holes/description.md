@@ -16,7 +16,7 @@ def half(a_number): # a_number is a parameter
 2
 ```
 
-For example, when we call `half` with the argument `4`, through this "small hole" called `a_number` it will receive the value `4`, which our function can then divide by two and return its result. On the other hand, if we invoke it like this...
+For example, when we call `half` with the argument `4`, through this "small hole" :hole: called `a_number` it will receive the value `4`, which our function can then divide by two and return its result. On the other hand, if we invoke it like this...
 
 
 ```python
@@ -24,7 +24,7 @@ For example, when we call `half` with the argument `4`, through this "small hole
 5
 ```
 
-...through the parameter `a_number`, the number `10` we used when invoking the function will reach `half`. And again, it will divide it by two and return the `5`.
+...through the parameter `a_number`, the number `10` we used when invoking the function will reach `half`. And again, it will divide it by two and return `5`.
 
 > Slow down! Let's go back to the function from the previous exercise...
 >
