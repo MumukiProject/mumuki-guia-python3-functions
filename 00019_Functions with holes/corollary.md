@@ -9,10 +9,10 @@ A function can _declare_ as many parameters in its definition as it needs; for e
 
 ```python
 def sum_lengths(a_string, another_string):
-  #                 	▲       	▲
+  #               	▲       	▲
   #          	"learning" "programming"
   return len(a_string) + len(another_string)
-  #        	▲              	▲
+  #        	    ▲              	▲
   # 	len("learning") len("programming")
 ```
 
