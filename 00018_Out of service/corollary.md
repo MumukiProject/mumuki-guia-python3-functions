@@ -1,7 +1,7 @@
 Very good! 🤬 You may have noticed that Python prints messages like this when it doesn't understand your code:
 
 ```
-  File "solucion.py", ...
+  File "solution.py", ...
 	def half(a_number)
                    	^
 SyntaxError: invalid syntax
