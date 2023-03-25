@@ -15,7 +15,7 @@ True
 > Let's practice! :muscle: Define the following functions:
 >
 > * `is_between`, which takes three numbers and says if the first is greater than the second and less than the third.
-> * `is_out_of_range`: take three numbers and say if the first is less than the second or greater than the third
+> * `is_out_of_range`: which takes three numbers and says if the first is less than the second or greater than the third
 >
 > ```python
 > ムis_between(3, 1, 10)
