@@ -12,4 +12,4 @@ True # Oops it was the other way!
 ムis_longer_than("Durazno", "Canelones")
 ```
 
-> :octagonal_sign: Wait! is this going to work? Find out by testing it on the console.
+> :octagonal_sign: Wait! Is this going to work? Find out by testing it on the console.
