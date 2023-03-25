@@ -4,6 +4,6 @@ Let's practice what we have learned!
 >
 >```python
 > ムfull_name_length("Guy", "Incognito")
->13
+>13 # 3 + 1 + 9
 >```
 
