@@ -12,10 +12,10 @@
     self.assertEqual(triple(3), 9)
 
   def test_previous_of_triple_1_is_2(self):
-    self.assertEqual(prev_of_triple(1), 2)
+    self.assertEqual(previous_of_triple(1), 2)
 
   def test_previous_of_triple_3_is_8(self):
-    self.assertEqual(prev_of_triple(3), 8)
+    self.assertEqual(previous_of_triple(3), 8)
 
   def test_previous_of_triple_10_is_29(self):
-    self.assertEqual(prev_of_triple(10), 29)
+    self.assertEqual(previous_of_triple(10), 29)

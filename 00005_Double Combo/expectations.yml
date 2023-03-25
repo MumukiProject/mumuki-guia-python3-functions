@@ -1,0 +1,41 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:previous
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:previous
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previous
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previous
+  inspection: UsesMath
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:triple
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:triple
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: triple
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: triple
+  inspection: UsesMath
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:previous_of_triple
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:previous_of_triple
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previous_of_triple
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previous_of_triple
+  inspection: Calls:previous
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previous_of_triple
+  inspection: Calls:triple

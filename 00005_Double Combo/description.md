@@ -25,5 +25,5 @@ def successor_of_double(number):
 >
 > * `previous`: takes a number and returns that number minus one.
 > * `triple`: returns triple a number.
-> * `prev_of_triple`, which combines the two functions above: multiplies a number by 3 and subtracts 1 from it.
+> * `previous_of_triple`, which combines the two functions above: multiplies a number by 3 and subtracts 1 from it.
 >
