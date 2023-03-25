@@ -12,4 +12,4 @@ def is_library("place"):
    return "library" in "place"
 ```
 
-...will throw a `SyntaxError`!
+...will throw a `SyntaxError`! :collision:
