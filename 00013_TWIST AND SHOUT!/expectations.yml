@@ -2,4 +2,16 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
+  inspection: Declares:shout
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresComputationWithArity1:shout
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: shout
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: shout
   inspection: Uses:upper
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: shout
+  inspection: UsesPlus
