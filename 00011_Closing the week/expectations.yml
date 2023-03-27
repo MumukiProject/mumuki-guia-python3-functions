@@ -8,4 +8,10 @@ expectations:
   inspection: Declares:is_weekend
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
+  inspection: DeclaresComputationWithArity1:is_weekend
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_weekend
+  inspection: Returns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: is_weekend
   inspection: UsesOr
