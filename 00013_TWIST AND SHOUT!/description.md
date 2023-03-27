@@ -1,4 +1,4 @@
-A well-known band - in order to add various screams to their song - asked us to develop a `shout` function, which takes a string and returns it in uppercase with an exclamation mark.
+A well-known band - in order to add various screams to their song - asked us to develop a `shout` function, which takes a string and returns it in uppercase with an exclamation mark at the end.
 
 For example:
 
