@@ -1,2 +1,2 @@
 expectation "`is_weekend` must use `or` with two boolean expressions":
-  within `is_weekend` calls or with (nonliteral, nonliteral);
+  within `is_weekend`   (! calls or ||  calls or with (nonliteral, nonliteral));
