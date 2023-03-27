@@ -2,6 +2,6 @@
 rules:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    these_expectations_failed:
+    only_these_expectations_failed:
     - shout Uses:upper
   then: Don't forget to convert the name to uppercase by using `str.upper`
