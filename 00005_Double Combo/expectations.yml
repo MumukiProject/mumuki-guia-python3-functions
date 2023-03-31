@@ -39,3 +39,12 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: previous_of_triple
   inspection: Calls:triple
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previous_of_triple
+  inspection: Not:Uses:previous_of_triple
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:previous_of_triple
+  inspection: Not:UsesMinus
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Intransitive:previous_of_triple
+  inspection: Not:UsesMultiply
