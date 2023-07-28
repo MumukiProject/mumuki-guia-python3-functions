@@ -10,22 +10,16 @@ teacher_info: ''
 manual_evaluation: false
 progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Both functions start with `def`, followed by the name of the function
+- value: Both functions start with `def`, followed by the name of the function
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Both functions start with `def`, followed by a colon
+- value: Both functions start with `def`, followed by a colon
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Both functions have a `return` in the first line
+- value: Both functions have a `return` in the first line
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Both functions have a `return` in the last line
+- value: Both functions have a `return` in the last line
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Both functions end with a colon in the first line
+- value: Both functions end with a colon in the first line
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: The second line of both functions is aligned next to the margin
+- value: The second line of both functions is aligned next to the margin
   checked: false
 name: Find the differences

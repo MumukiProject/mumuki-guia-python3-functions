@@ -1,13 +1,11 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - "* Not:Uses:startswith"
   then: ":warning: in this exercise you don't need `str.startswith`. We tell you only
     as an example :wink:"
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_tests_failed:
     - Contemplate the space
   then: It seems that you are not contemplating space; the `full_name_length` must

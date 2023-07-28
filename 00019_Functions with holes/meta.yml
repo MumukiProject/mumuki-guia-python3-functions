@@ -10,17 +10,13 @@ teacher_info: ''
 manual_evaluation: false
 progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`sum_lengths` is a function"
+- value: "`sum_lengths` is a function"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`sum_lengths` has two parameters"
+- value: "`sum_lengths` has two parameters"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`sum_lengths` can be called with 2 arguments"
+- value: "`sum_lengths` can be called with 2 arguments"
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: if we write `sum_lengths("learning", "programming")`, `"learning"` will be
+- value: if we write `sum_lengths("learning", "programming")`, `"learning"` will be
     the first argument and `"programming"`, the second
   checked: true
 name: Functions with holes

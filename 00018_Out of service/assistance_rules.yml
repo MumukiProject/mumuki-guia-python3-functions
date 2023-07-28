@@ -1,11 +1,9 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     error_contains: IndentationError
   then: don't forget to indent your second line with the `Tab ↹`  key
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     error_contains: "^"
   then: 'press `View details` and look at the `^` :bulb: symbol. Where is it pointing
     to? What is Python trying to tell us?'

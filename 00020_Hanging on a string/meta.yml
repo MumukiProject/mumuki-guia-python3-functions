@@ -10,12 +10,10 @@ teacher_info: ''
 manual_evaluation: false
 progressive_expectations: false
 choices:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Yes, because in the function `is_library`, `place` is a string type parameter
+- value: Yes, because in the function `is_library`, `place` is a string type parameter
     and we must indicate it by placing it in quotes
   checked: false
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: No, because in the `is_library` function, `place` is a parameter of type
+- value: No, because in the `is_library` function, `place` is a parameter of type
     string, but the parameters are names that are not enclosed in quotes
   checked: true
 name: Hanging on a string

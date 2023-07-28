@@ -1,7 +1,6 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - previous_of_triple Not:Uses:previous_of_triple
   then: "you are trying to define `previous_of_triple` using... `previous_of_triple`
